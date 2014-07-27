@@ -4,7 +4,10 @@ import java.util.Scanner;
  * Trying to find the maximum of two numbers without using any comparison. Now that is interesting :D
  * @author pbhatnagar
  * NOTE: this does not take care of the overflow error
+ * If you have any questions or comments, please feel free to contact
+ * me at pbhatnagar3@gatech.edu
  *
+ * MAY THE FORCE OF COMPILER BE WITH YOU. :D*
  */
 public class FindMax {
 	final static int MACHINE_BIT = 31;

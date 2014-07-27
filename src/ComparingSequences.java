@@ -5,9 +5,12 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * Compare two sequences and print out how many direct hit and how many partial hits
+ * Comparing two sequences for a direct hit and partial hit.
  * @author pbhatnagar
+ * If you have any questions or comments, please feel free to contact
+ * me at pbhatnagar3@gatech.edu
  *
+ * MAY THE FORCE OF COMPILER BE WITH YOU. :D
  */
 public class ComparingSequences {
 
