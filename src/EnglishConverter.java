@@ -32,7 +32,7 @@ public class EnglishConverter {
 	}
 
 	public String converter10(int num){
-		
+
 		String output = "";
 		if(num > 10 && num < 20){
 			output = teens[num%10 - 1];
@@ -56,11 +56,13 @@ public class EnglishConverter {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("enter the number to be converted");
-		Scanner scan = new Scanner(System.in);
-		int num = scan.nextInt();
-		EnglishConverter converter = new EnglishConverter();
-		//		System.out.println(converter.converter100(num));
-		System.out.println(converter.converter(num));
+		while(true){
+			System.out.println("enter the number to be converted");
+			Scanner scan = new Scanner(System.in);
+			int num = scan.nextInt();
+			EnglishConverter converter = new EnglishConverter();
+			//		System.out.println(converter.converter100(num));
+			System.out.println(converter.converter(num));
+		}
 	}
 }
